@@ -7,3 +7,4 @@ It can check whether a number is automorphic, armstrong, special, niven, unique 
 It can reverse a number.
 It can check whether a number is palindromic or not.
 Like this there are many additional properties which are absent in a mere scientific calculator.
+Module used - tkinter, numpy, scipy.
