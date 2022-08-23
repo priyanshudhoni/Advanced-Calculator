@@ -392,7 +392,7 @@ def uni():
             break
     
     if(l1==1):
-        e.insert(0,str(g)+" is a not unique number")
+        e.insert(0,str(g)+" is a non unique number")
     else:
         e.insert(0,str(g)+" is a unique number")
 def niven():
@@ -406,7 +406,7 @@ def niven():
     if(g%s==0):
         e.insert(0,str(g)+" is a niven number")
     else:
-        e.insert(0,str(g)+" is  not a niven number")
+        e.insert(0,str(g)+" is not a niven number")
         
         
         
