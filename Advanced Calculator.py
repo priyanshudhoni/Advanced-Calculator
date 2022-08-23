@@ -6,6 +6,7 @@ from itertools import permutations,combinations
 root=Tk()
 root.title("Calculator")
 root.minsize(660,542)
+
 global d
 d=""
 e=Entry(root,fg="yellow",bg="black",width="100",borderwidth=6)
@@ -24,10 +25,10 @@ def comb():
     d="comb"
     
 def click(number):
-    s=e.get()
+    s=e.get() #s=4
     e.delete(0,END)
     
-    e.insert(0,str(s)+str(number))
+    e.insert(0,str(s)+str(number)) 
 def add():
     global first
     first=e.get()
@@ -223,7 +224,7 @@ def diff():
         e.insert(0,"Prime")
     else:
         e.insert(0,"  Non prime ")
-        e.insert(0,u)
+        e.insert(0,first)
     
           
     
